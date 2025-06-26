@@ -1,0 +1,133 @@
+body {
+    font-family: Verdana, sans-serif;
+    background: linear-gradient(145deg, #f2f2f2, rgb(92, 184, 236));
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #171836;
+    height: 60px;
+    gap: 20px;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+li a:hover {
+    background-color: #00314e;
+    border-radius: 5px;
+}
+
+.slogan {
+
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+    font-family: Georgia, serif;
+    color: white;
+
+    margin-top: 1em;
+    margin-bottom: 10em;
+}
+
+#menu {
+    margin: 2em 3em;
+
+    background-color: #ffe5bd;
+    background-image: url("beachdesign.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 50px;
+    box-shadow: 0 2px 20px 5px rgba(0, 0, 0, 0.4);
+}
+
+.minumapa {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 3.5em;
+    color: #002730;
+
+    padding: 50px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    background: linear-gradient(135deg, #a5f4f7, hsl(200, 100%, 90%));
+    margin: 1em 5em;
+    background-size: cover;
+}
+
+.listminum {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em 10em;
+    justify-content: center;
+    padding: 50px;
+}
+
+.minuman {
+    padding: 1em;
+
+    border-radius: 8px;
+    box-shadow: 0 2px 20px 5px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    background-color: rgba(16, 16, 16, 0.3);
+
+    text-align: center;
+}
+
+.minuman img {
+    height: auto;
+    width: 10em;
+    border-radius: 4px;
+}
+
+.nama {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 1.3em;
+    color: #f2f2f2;
+}
+
+.harga {
+    color: #f2f2f2;
+}
+
+.alamat {
+    background-color: rgb(77, 147, 188);
+    color: white;
+    margin: 10em;
+    background-image: url("toko.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px;
+}
+
+.letak {
+    text-align: center;
+}
