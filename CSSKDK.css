@@ -1,11 +1,12 @@
 body {
     font-family: Verdana, sans-serif;
-    background: linear-gradient(145deg, #f2f2f2, rgb(92, 184, 236));
+    background: rgb(255, 170, 0);
     background-size: cover;
     margin: 0px;
     padding: 0px;
-
 }
+
+
 
 ul {
     list-style-type: none;
@@ -16,7 +17,7 @@ ul {
     justify-content: center;
     align-items: center;
 
-    background-color: #171836;
+    background: rgb(0, 0, 0);
     height: 60px;
     gap: 20px;
 }
@@ -34,51 +35,38 @@ li a {
     font-family: Arial, sans-serif;
     font-size: 16px;
     transition: background-color 0.3s ease;
+
+    background-color: rgba(248, 255, 39, 0.05);
+    border-radius: 1rem;
 }
 
 li a:hover {
-    background-color: #00314e;
-    border-radius: 5px;
+    background-color: #ffa600;
+    border-radius: 1rem;
 }
 
-.slogan {
 
-    text-align: center;
-    font-size: 2em;
-    font-style: italic;
-    font-family: Georgia, serif;
-    color: white;
 
-    margin-top: 1em;
-    margin-bottom: 10em;
-}
 
-#menu {
-    margin: 2em 3em;
-
-    background-image: url("beachdesign.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    border-radius: 50px;
-    box-shadow: 0 2px 20px 5px rgba(0, 0, 0, 0.4);
-}
-
-.minumapa {
-    text-align: center;
-    font-family: Georgia, serif;
+.opening {
+    padding: 3em;
+    color: Black;
     font-weight: bold;
-    font-size: 3.5em;
-    color: #002730;
+    font-size: clamp(1.8rem, calc(7vw + 1rem), 5rem);
+    text-shadow: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1.5em;
+    animation: waka 1s ease-out forwards;
+    transform: translateY(50px);
+    opacity: 0;
+}
 
-    padding: 50px;
-    border-top-left-radius: 500px;
-    border-top-right-radius: 500px;
-    border-bottom-left-radius: 200px;
-    border-bottom-right-radius: 200px;
-    background: linear-gradient(135deg, #a5f4f7, hsl(200, 100%, 90%));
-    margin: 1em 5em;
-    background-size: cover;
+
+
+
+.menu {
+    margin: 0em 1.5em;
 }
 
 .listminum {
@@ -93,9 +81,9 @@ li a:hover {
     padding: 1em;
 
     border-radius: 50px;
-    box-shadow: 0 2px 20px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 20px 5px rgba(254, 220, 0, 0.3);
     width: 200px;
-    background-color: rgba(16, 16, 16, 0.3);
+    background-color: rgba(0, 0, 0);
 
     text-align: center;
 }
@@ -117,24 +105,13 @@ li a:hover {
     color: #f2f2f2;
 }
 
-.alamat {
-    background: rgba(45, 45, 79, 0.5);
-    border-radius: 20px;
-    padding: 100px;
-    margin: 10em 10em;
-    overflow: auto;
-}
 
-.alamat img {
-    height: auto;
-    width: 30em;
-    border-radius: 20px;
-    float: left;
-}
 
-.alamat p{
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-shadow: rgba(0, 0, 0, 0.5);
+
+
+@keyframes waka {
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
