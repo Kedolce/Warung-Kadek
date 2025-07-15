@@ -1,83 +1,41 @@
 <!DOCTYPE html>
 <html class="html" lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Warung Kadek</title>
 
     <script src="javascript.js"></script>
-    <link rel="stylesheet" href="CSSKDK.css">
+    <link rel="stylesheet" href="CSSKDK.css" />
+  </head>
 
-</head>
-
-
-<body>
+  <body>
     <header>
-        <nav>
-            <div class="navbar">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav>
+        <div class="navbar">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
-    
-    <div class="opening">
-        Warung Kadek
-    </div>
-
+    <div class="opening">Warung Kadek</div>
 
     <content>
-        <div class="menu">
-            <div class="listminum">
-                <div class="minuman">
-                    <img src="cocacola.webp" alt="Cocacola.img">
-                    <p class="nama">Coca-cola</p>
-                    <p class="harga">Rp7.000</p>
-                </div>
-
-                <div class="minuman">
-                    <img src="golda.jpg" alt="Golda.img">
-                    <p class="nama">Golda</p>
-                    <p class="harga">Rp5.000</p>
-                </div>
-
-                <div class="minuman">
-                    <img src="sprite.png" alt="Sprite.img">
-                    <p class="nama">Sprite</p>
-                    <p class="harga">Rp7.000</p>
-                </div>
-
-                <div class="minuman">
-                    <img src="ultramilk.jpg" alt="Ultramilk.img">
-                    <p class="nama">Ultramilk</p>
-                    <p class="harga">Rp6.000</p>
-                </div>
-
-                <div class="minuman">
-                    <img src="yogurt.webp" alt="Cimory.img">
-                    <p class="nama">Yogurt Cimory</p>
-                    <p class="harga">Rp8.000</p>
-                </div>
-
-                <div class="minuman">
-                    <img src="tehpucuk.jpg" alt="Teh Pucuk.img">
-                    <p class="nama">Teh Pucuk</p>
-                    <p class="harga">Rp5.000</p>
-                </div>
-            </div>
+      
+        <div class="slidercontent">
+        <button onclick="sebelum()"> &lt; </button>
+        <img id="slider" src="cocacola.png" width="300">
+        <button onclick="sesudah()"> &gt; </button>
         </div>
+
 
     </content>
 
-    <footer>
-
-    </footer>
-</body>
-
+    <footer></footer>
+  </body>
 </html>

@@ -65,46 +65,21 @@ li a:hover {
 
 
 
-.menu {
-    margin: 0em 1.5em;
+.slidercontent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
-.listminum {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5em 10em;
-    justify-content: center;
-    padding: 50px;
+button {
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+  background-color: transparent;
+  border-style: none;
 }
-
-.minuman {
-    padding: 1em;
-
-    border-radius: 50px;
-    box-shadow: 0 2px 20px 5px rgba(254, 220, 0, 0.3);
-    width: 200px;
-    background-color: rgba(0, 0, 0);
-
-    text-align: center;
-}
-
-.minuman img {
-    height: auto;
-    width: 10em;
-    border-radius: 500px;
-}
-
-.nama {
-    font-weight: bold;
-    font-family: Arial, sans-serif;
-    font-size: 1.3em;
-    color: #f2f2f2;
-}
-
-.harga {
-    color: #f2f2f2;
-}
-
 
 
 
